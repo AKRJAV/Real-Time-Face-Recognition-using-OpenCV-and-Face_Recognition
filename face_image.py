@@ -15,7 +15,7 @@ known_encoding3 = face_recognition.face_encodings(known_image3)[0]
 
 # Initialize known faces and names
 known_faces = [known_encoding1, known_encoding2, known_encoding3]
-known_names = ["Person1", "Person2", "Person3"]
+known_names = ["Arjav Kulkarni", "Will Smith", "Tom Cruise"]
 
 # Directory to save unknown person images
 unknown_dir = "Unknown_Persons"
