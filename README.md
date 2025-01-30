@@ -1,7 +1,5 @@
 # Real Time Face Recognition using OpenCV and Face_Recognition
 
-# Real-Time Face Recognition System
-
 This project implements a real-time face recognition system using OpenCV and the `face_recognition` library. The system captures video from a webcam, detects faces, and identifies known individuals. If an unknown person is detected, their image is saved, and a red rectangle with "Unknown" is displayed. The system compares the detected faces with a set of known faces, displaying the name of the person if recognized, and saving the image if the person is not recognized.
 
 ## Features
@@ -37,4 +35,10 @@ pip install opencv-python face_recognition
 * If a known person is in front of the camera, their name will appear on a green rectangle.
 * If an unknown person appears, a red rectangle will be shown with "Unknown," and their image will be saved in the Unknown_Persons directory.
 
-4) Press 'q' to stop the program.   
+4) Press 'q' to stop the program.
+
+
+## Directory Structure
+
+* Unknown_Persons/: Directory where images of unknown people are saved.
+* face_recognition_system.py: Main script for face recognition.
